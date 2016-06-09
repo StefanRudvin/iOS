@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B02B5E91D07E23900E5CD21 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02B5E81D07E23900E5CD21 /* Meal.swift */; };
+		1B02B5EA1D07E23900E5CD21 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02B5E81D07E23900E5CD21 /* Meal.swift */; };
+		1B02B5EF1D07FCC200E5CD21 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02B5EE1D07FCC200E5CD21 /* MealTableViewCell.swift */; };
+		1B02B5F11D080C6C00E5CD21 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02B5F01D080C6C00E5CD21 /* MealTableViewController.swift */; };
 		1B1CF5661D06264900ECC8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CF5651D06264900ECC8E6 /* AppDelegate.swift */; };
 		1B1CF5681D06264900ECC8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1CF5671D06264900ECC8E6 /* ViewController.swift */; };
 		1B1CF56B1D06264900ECC8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1CF5691D06264900ECC8E6 /* Main.storyboard */; };
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B02B5E81D07E23900E5CD21 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1B02B5EE1D07FCC200E5CD21 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealTableViewCell.swift; path = ../MealTableViewCell.swift; sourceTree = "<group>"; };
+		1B02B5F01D080C6C00E5CD21 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		1B1CF5621D06264900ECC8E6 /* iOSbasicUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSbasicUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1CF5651D06264900ECC8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B1CF5671D06264900ECC8E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +86,13 @@
 		1B1CF5641D06264900ECC8E6 /* iOSbasicUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				1B02B5EE1D07FCC200E5CD21 /* MealTableViewCell.swift */,
 				1B1CF5651D06264900ECC8E6 /* AppDelegate.swift */,
 				1B1CF5671D06264900ECC8E6 /* ViewController.swift */,
 				1B4C7D941D06DAAC0074A11C /* RatingControl.swift */,
 				1B1CF5691D06264900ECC8E6 /* Main.storyboard */,
+				1B02B5F01D080C6C00E5CD21 /* MealTableViewController.swift */,
+				1B02B5E81D07E23900E5CD21 /* Meal.swift */,
 				1B1CF56C1D06264900ECC8E6 /* Assets.xcassets */,
 				1B1CF56E1D06264900ECC8E6 /* LaunchScreen.storyboard */,
 				1B1CF5711D06264900ECC8E6 /* Info.plist */,
@@ -200,9 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B02B5E91D07E23900E5CD21 /* Meal.swift in Sources */,
 				1B1CF5681D06264900ECC8E6 /* ViewController.swift in Sources */,
 				1B4C7D951D06DAAC0074A11C /* RatingControl.swift in Sources */,
 				1B1CF5661D06264900ECC8E6 /* AppDelegate.swift in Sources */,
+				1B02B5F11D080C6C00E5CD21 /* MealTableViewController.swift in Sources */,
+				1B02B5EF1D07FCC200E5CD21 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B02B5EA1D07E23900E5CD21 /* Meal.swift in Sources */,
 				1B1CF57B1D06264900ECC8E6 /* iOSbasicUIAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

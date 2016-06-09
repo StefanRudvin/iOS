@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOSbasicUIApp/ViewController.swift"
@@ -17,22 +17,85 @@
             endingLineNumber = "18"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSbasicUIApp.ViewController.photoImateView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "iOSbasicUIApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stefanrudvin/Documents/XCODE/ToDoApp/iOSbasicUIApp/iOSbasicUIApp/ViewController.swift"
+                  timestampString = "487060114.605827"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSbasicUIApp.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; iOSbasicUIApp.ViewController"
+                  moduleName = "iOSbasicUIApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stefanrudvin/Documents/XCODE/ToDoApp/iOSbasicUIApp/iOSbasicUIApp/ViewController.swift"
+                  timestampString = "487060114.606004"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSbasicUIApp.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iOSbasicUIApp.ViewController&gt;"
+                  moduleName = "iOSbasicUIApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stefanrudvin/Documents/XCODE/ToDoApp/iOSbasicUIApp/iOSbasicUIApp/ViewController.swift"
+                  timestampString = "487060114.606177"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOSbasicUIApp/ViewController.swift"
-            timestampString = "486948797.252958"
+            timestampString = "487058840.315603"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "ViewController"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSbasicUIApp/Meal.swift"
+            timestampString = "487058840.315603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(name:photo:rating:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
